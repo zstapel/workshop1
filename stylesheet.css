@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1024px) {
+  .large {
+    display: inline-block;
+  }
+  .medium {
+    display: none;
+  }
+  .small {
+    display: none;
+  }
+.header {
+    background: #FDC9CD;
+    font-size: 70px;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+.title {
+  text-align: center;
+  max-width: 580px;
+  
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+.large {
+   display: none;
+  }
+  .medium {
+    display: inline-block;
+  }
+  .small {
+    display: none;
+  }
+
+  .header {
+    background: #F4DB85;
+    font-size: 100px;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+  background-color: #b48fff;
+}
+.title {
+  text-align: center;
+  max-width: 580px;
+  
+}
+}
+  @media screen and (max-width: 768px){
+
+  .large {
+   display: none;
+  }
+  .medium {
+    display: none;
+
+  }
+  .small {
+   display: inline-block;
+  }
+
+    .header {
+    font-size: 50px;
+    justify-content: center;
+    font-family: 'Monoton', cursive;
+}
+body {
+  background-color: #8fbaff; 
+}
+.title {
+  text-align: center;
+  max-width: 580px;
+}
